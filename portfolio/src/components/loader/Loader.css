@@ -1,0 +1,16 @@
+/* Loader.css */
+.loader {
+    border: 16px solid rgba(0, 0, 0, 0.1); /* Light grey background */
+    border-radius: 50%;
+    border-top: 16px solid linear-gradient(270deg, #DF8908 0.36%, #B415FF 102.06%); /* Gradient border */
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite; /* Spinning animation */
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
